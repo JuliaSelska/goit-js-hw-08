@@ -79,8 +79,6 @@ const galleryImages = images
   .join("");
 galleryContainer.innerHTML = galleryImages;
 
-console.log(galleryImages);
-
 //5 - Делегування//
 galleryContainer.addEventListener("click", onImagesClick);
 function onImagesClick(event) {
